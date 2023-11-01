@@ -1,0 +1,53 @@
+body{
+    background-color: rgba(220, 220, 220, 0.504);
+}
+
+.loginPage{
+    width: 500px;
+    height: 450px;
+    margin: 150px auto;
+    background-color: gainsboro;
+    padding: 50px;   
+    border-radius: 8px;
+}
+
+.registerPage{
+    width: 500px;
+    height: 400px;
+    margin: 150px auto;
+    background-color: gainsboro;
+    padding: 50px;   
+    padding-top: 70px;
+    border-radius: 8px;
+}
+
+input{
+    margin: 20px auto;
+    display: block;
+    width: 70%;
+    height: 35px;
+    border: 2px black solid;
+    border-radius: 8px;
+    padding-left: 10px;
+}
+
+input:first-of-type{
+    margin-top: 40px;
+}
+
+.loginButton{
+    margin-top: 30px;
+    margin-left: 25%;
+    border: 2px black solid;
+    border-radius: 8px;
+
+    width: 50%;
+    height: 35px;
+}
+
+.testButton{
+    background-color: rgba(255, 0, 0, 0.848);
+    border-color: rgba(255, 0, 0, 0.848);
+    color: white;
+    height: 40px;
+}

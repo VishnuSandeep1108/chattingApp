@@ -1,0 +1,98 @@
+.wantedConnection{
+    border-bottom: 1px solid gray;
+  
+    display: flex;
+  }
+  
+  .chatArea{
+    max-height: 550px; 
+    overflow-y: auto;
+  }
+  
+  .sender{
+    background-color: antiquewhite;
+    width: fit-content;
+    max-width: 600px;
+    border-radius: 8px;
+    padding: 10px;
+    margin-right: auto;
+  }
+  
+  .receiver{
+    position: relative;
+    background-color: aquamarine;
+    width: fit-content;
+    max-width: 600px;
+    border-radius: 8px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: 20px;
+  }
+  
+  .sendMessage{
+    display: flex;
+    width: 75%;
+  
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+  
+    padding-top: 15px;
+    padding-bottom: 10px;
+    margin-top: auto;
+  }
+  
+  .sendMessage textarea{
+    height: 100px;
+    width: 80%;
+    border-radius: 8px;
+    resize: none;
+    padding: 15px;
+  }
+  
+  .sendMessage button {
+    height: 50px;
+    width: 100px;
+  
+    border: none;
+  
+    background-color: transparent;
+  
+    margin-left: 50px;
+    margin-top: 0px;
+  }
+  
+  .sendMessage button box-icon{
+    height: 100px;
+    width: 70px;
+  }
+  
+  
+  
+  /* Style the scrollbar track */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Style the scrollbar thumb (the draggable part) */
+  ::-webkit-scrollbar-thumb {
+    background: #888; /* Color of the scrollbar thumb */
+    border-radius: 5px; /* Rounded corners for the thumb */
+  }
+  
+  /* Style the scrollbar track when the user hovers over it */
+  ::-webkit-scrollbar-track:hover {
+    background: #aaa;
+    border-radius: 5px;
+  }
+  
+  
+  video{
+    width: 100px;
+    height: 100px;
+  }
+
+  .videocallButton{
+    width: 100px;
+    margin: 10px ;
+  }
